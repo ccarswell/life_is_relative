@@ -1,0 +1,35 @@
+﻿start_life_is_relative_decision = {
+	title = life_is_relative_decisions_t
+	picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+	desc = life_is_relative_decisions_desc
+
+	is_shown = {
+		is_ai = no
+		NOT {exists = global_var:life_is_relative_started}
+		
+	}
+
+	is_valid = {
+
+	}
+
+	cost = {
+
+	}
+
+	effect = {
+		trigger_event = life_is_relative_decisions.0001
+		
+		set_global_variable = { 
+			# Enabled only once
+			# name = life_is_relative_started
+			# value = yes
+		}
+	}
+
+	ai_potential = {
+		
+	}
+
+	ai_check_interval = 0
+}

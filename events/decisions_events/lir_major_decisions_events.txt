@@ -1,0 +1,35 @@
+﻿namespace = major_decisions
+
+#Decisions:
+# decision_convert_to_feudalism, by Mathilda Bjarnehed
+# 0001 - I converted to feudalism
+
+# decision_strenghten_bloodline
+# 0500 - I have strengthened my bloodline
+
+# decision_dynasty_of_many_crowns
+# 0501 - I have completed dynasty of many crowns
+
+# decision_declare_bloodline_holy, by Flavio Verna
+# 0100 - I have completed Consecrate Bloodline
+# 0101 - Paragon/Savior traits inheritance
+
+#convert_to_feudalism_decision
+life_is_relative_decisions.0001 = { #by Christopher Carswell
+	type = character_event
+	title = life_is_relative_decisions.0001.t
+	desc = life_is_relative_decisions.0001.desc
+	theme = stewardship
+	left_portrait = {
+		character = root
+		animation = happiness
+	}
+
+	option = {
+		name = life_is_relative_decisions.0001.a
+	}
+
+	option = {
+		name = life_is_relative_decisions.0001.b
+	}
+}
