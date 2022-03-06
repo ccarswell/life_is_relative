@@ -1,6 +1,8 @@
 ﻿l_english:
 life_is_relative_decisions.0001.t:0 "Life is Relative Starts"
-life_is_relative_decisions.0001.desc:0 "This mod removes all absolutes from your characters perspective, and only sees other characters attributes relative to themselves."
+#life_is_relative_decisions.0001.desc:0 "This mod removes all absolutes from your characters perspective, and only sees other characters attributes relative to themselves."
+#life_is_relative_decisions.0001.desc:0  "[prowess_i][Character.GetSkill( 'prowess' )]"
+life_is_relative_decisions.0001.desc:0  "Your Diplomacy: #V [ROOT.Char.GetSkill('diplomacy')]#! \nYour Martial: #V [ROOT.Char.GetSkill('martial')]#!\nYour Stewardship: #V [ROOT.Char.GetSkill('stewardship')]#!\nYour Intrigue: #V [ROOT.Char.GetSkill('intrigue')]#!\nYour Learning: #V [ROOT.Char.GetSkill('learning')]#!"
 life_is_relative_decisions.0001.a:0 "Easy mode"
 life_is_relative_decisions.0001.b:0 "Hard mode"
 life_is_relative_decisions_t:0 "Life is Relative"
