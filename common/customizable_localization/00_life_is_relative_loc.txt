@@ -1,0 +1,11 @@
+lir_skill_word = {
+	type = character
+	text = {
+		localization_key = Intrigue_AVG
+		trigger = {
+			intrigue >= 1
+			intrigue < 5		
+		}
+	}	
+}
+

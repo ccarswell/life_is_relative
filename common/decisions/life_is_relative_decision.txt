@@ -5,7 +5,7 @@
 
 	is_shown = {
 		is_ai = no
-		NOT {exists = global_var:life_is_relative_started}
+		#NOT {exists = global_var:life_is_relative_started}
 		
 	}
 
@@ -22,8 +22,9 @@
 		
 		set_global_variable = { 
 			# Enabled only once
-			# name = life_is_relative_started
-			# value = yes
+			name = life_is_relative_started
+			value = 1
+			
 		}
 	}
 
